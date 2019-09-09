@@ -15,6 +15,7 @@
 # TL;DR;
 
 ```bash
+<<<<<<< HEAD
 $ docker run -ti --rm statful/awscli-eksctl
 ```
 
