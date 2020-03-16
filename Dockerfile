@@ -3,7 +3,7 @@ FROM alpine
 MAINTAINER Vasco Santos <jvosantos@gmail.com>
 
 ARG AWS_VERSION="1.18.21"
-ARG EKSCTL_VERSION="0.14.0"
+ARG EKSCTL_VERSION="0.15.0"
 
 RUN apk update \
  &&  apk add ca-certificates curl py-pip py2-pip \
