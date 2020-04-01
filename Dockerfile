@@ -2,7 +2,7 @@ FROM alpine
 
 MAINTAINER Vasco Santos <jvosantos@gmail.com>
 
-ARG AWS_VERSION="1.18.22"
+ARG AWS_VERSION="1.18.23"
 ARG EKSCTL_VERSION="0.15.0"
 
 RUN apk update \
