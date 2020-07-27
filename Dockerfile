@@ -3,7 +3,7 @@ FROM ubuntu:latest
 MAINTAINER Vasco Santos <jvosantos@gmail.com>
 
 ARG AWS_VERSION="2.0.34"
-ARG EKSCTL_VERSION="0.22.0"
+ARG EKSCTL_VERSION="0.23.0"
 
 RUN apt-get update \
   && apt-get install -y ca-certificates curl unzip
