@@ -2,7 +2,7 @@ FROM ubuntu:latest
 
 MAINTAINER Vasco Santos <jvosantos@gmail.com>
 
-ARG AWS_VERSION="2.0.14"
+ARG AWS_VERSION="2.0.15"
 ARG EKSCTL_VERSION="0.22.0"
 
 RUN apt-get update \
