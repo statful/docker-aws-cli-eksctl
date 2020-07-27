@@ -29,7 +29,11 @@ $ docker run -ti -v '/Users/statful/.aws:/root/.aws' --rm statful/awscli-eksctl 
 
 # Supported tags and respective `Dockerfile` links
 
-* [`awscli-1.16-eksctl-0.5`, `latest` (Dockerfile)](https://github.com/statful/awscli-eksctl/blob/Dockerfile)
+The tags that match the following should be supported
+* awscli-X.Y.Z-eksctl-X.Y.Z
+* awscli-X.Y-eksctl-X.Y
+
+where `X`, `Y` and `Z` correspond to major minor and patch numbers following a semantic versioning approach of each project mentioned before (e.g.: awscli-2.0.34-eksctl-0.22.0 or awscli-2.0-eksctl-0.22).
 
 Subscribe to project updates by watching the [statful/awscli-eksctl GitHub repo](https://github.com/statful/awscli-eksctl).
 
